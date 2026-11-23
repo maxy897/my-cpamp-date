@@ -1,6 +1,6 @@
 FROM litestream/litestream:0.3.13 AS litestream
 
-FROM seakee/cpa-manager-plus:latest
+FROM seakee/cpa-manager-plus:1.14.10
 
 # 安装 aws-cli 和 bash 用于密钥同步
 RUN apk add --no-cache bash aws-cli
